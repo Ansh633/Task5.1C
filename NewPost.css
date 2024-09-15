@@ -1,0 +1,13 @@
+.NewPostBar {
+  display: flex;
+  background-color: rgb(189, 174, 192);
+  align-items: center; 
+  flex-wrap: nowrap; 
+}
+
+.NewPostBar .selected-value,
+.NewPostBar .article {
+  margin-right: 10px;
+  flex-shrink: 0; 
+}
+
